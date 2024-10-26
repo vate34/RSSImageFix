@@ -1,0 +1,9 @@
+#!name = 修复少数派RSS图片显示
+#!desc = 修复少数派RSS图片在RSS客户端无法显示的问题
+#!author = vate34
+#!homepage = https://github.com/vate34/RSSImageFix
+
+[Rewrite]
+^https://cdnfile\.sspai\.com/ header-add referer https://sspai.com
+[Mitm]
+hostname = cndfile.sspai.com
