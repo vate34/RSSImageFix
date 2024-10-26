@@ -5,6 +5,6 @@
 #!icon = https://cdn-static.sspai.com/favicon/sspai.ico
 
 [Rewrite]
-^https://cdnfile\.sspai\.com/ header-add referer https://sspai.com
+^https://cdnfile\.sspai\.com/ header-add referer sspai.com
 [Mitm]
 hostname = cdnfile.sspai.com
